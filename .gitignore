@@ -1,0 +1,12 @@
+# Segredos
+.env
+
+# Artefatos gerados em tempo de execução (não devem ser versionados)
+historico_clima.json
+log_envios.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
