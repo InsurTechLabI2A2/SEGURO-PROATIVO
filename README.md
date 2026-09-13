@@ -83,7 +83,7 @@ Executar `python main.py` mais de uma vez faz o histórico (`historico_clima.jso
 
 ## Catálogo de eventos monitorados
 
-A fonte de verdade dos 20 eventos e seus critérios técnicos é (ver [`data/eventos_20.json`](http://data/eventos_20.json)); a tabela abaixo é um resumo.
+A fonte de verdade dos 20 eventos e seus critérios técnicos é [`data/eventos_20.json`](http://data/eventos_20.json); a tabela abaixo é um resumo.
 
 | ID | Nome | Critério técnico |
 | :---- | :---- | :---- |
