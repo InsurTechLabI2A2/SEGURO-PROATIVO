@@ -1,0 +1,10 @@
+data_hora,evento_id,segurado_id,nome,produto,cidade,canal,mensagem,status
+2026-09-12 07:47:44,E01,S01,Ana,Residencial,Porto Alegre,WhatsApp,"Olá Ana, chuva intensa de 22C, vento 8m/s, chuva 62mm, vis 8000m em Porto Alegre. Para seu seguro Residencial: eleve móveis, desligue energia térrea.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E01,S08,Loja Centro,Empresarial,Porto Alegre,WhatsApp,"Olá Loja Centro, chuva intensa de 22C, vento 8m/s, chuva 62mm, vis 8000m em Porto Alegre. Para seu seguro Empresarial: eleve móveis, desligue energia térrea.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E09,S01,Ana,Residencial,Porto Alegre,WhatsApp,"Inundação em Porto Alegre, Ana. Chuva 24h 22C, vento 8m/s, chuva 62mm, vis 8000m. Leve documentos e veículo para área alta.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E09,S08,Loja Centro,Empresarial,Porto Alegre,WhatsApp,"Inundação em Porto Alegre, Loja Centro. Chuva 24h 22C, vento 8m/s, chuva 62mm, vis 8000m. Leve documentos e veículo para área alta.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E14,S08,Loja Centro,Empresarial,Porto Alegre,WhatsApp,Alerta E14 em Porto Alegre para Loja Centro. Precaução.,ENVIADO_SIMULADO
+2026-09-12 07:47:44,E03,S03,Empresa XYZ Santos,Empresarial,Santos,E-mail,"Empresa XYZ Santos, vento costeiro 28C, vento 16m/s, chuva 10mm, vis 10000m em Santos. Fixe telhas e placas, feche galpão. Risco destelhamento.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E20,S03,Empresa XYZ Santos,Empresarial,Santos,E-mail,"Queda pressão 28C, vento 16m/s, chuva 10mm, vis 10000m em Santos, Empresa XYZ Santos. Tempestade severa iminente, porto pode fechar.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E06,S04,Fazenda Vacaria,Rural,Vacaria,WhatsApp,"Geada em Vacaria, Fazenda Vacaria. Proteja lavoura e recolha animais. Seguro rural cobre geada.",ENVIADO_SIMULADO
+2026-09-12 07:47:44,E18,S10,Colaborador Externo,Vida,São Joaquim,WhatsApp,"Frio intenso -1C, vento 8m/s, chuva 0mm, vis 10000m em São Joaquim, Colaborador Externo. Use EPI térmico, risco hipotermia.",ENVIADO_SIMULADO

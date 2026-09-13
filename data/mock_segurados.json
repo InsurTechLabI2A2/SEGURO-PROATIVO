@@ -1,0 +1,83 @@
+[
+  {
+    "id": "S01",
+    "nome": "Ana",
+    "produto": "Residencial",
+    "cidade": "Porto Alegre",
+    "bairro": "Menino Deus",
+    "risco": "alagável",
+    "canal": "WhatsApp"
+  },
+  {
+    "id": "S02",
+    "nome": "Carlos",
+    "produto": "Auto",
+    "cidade": "Porto Alegre",
+    "risco": "garagem aberta",
+    "canal": "SMS"
+  },
+  {
+    "id": "S03",
+    "nome": "Empresa XYZ Santos",
+    "produto": "Empresarial",
+    "cidade": "Santos",
+    "risco": "galpão costeiro",
+    "canal": "E-mail"
+  },
+  {
+    "id": "S04",
+    "nome": "Fazenda Vacaria",
+    "produto": "Rural",
+    "cidade": "Vacaria",
+    "risco": "soja",
+    "canal": "WhatsApp"
+  },
+  {
+    "id": "S05",
+    "nome": "Transportadora Serra",
+    "produto": "Transporte",
+    "cidade": "Caxias do Sul",
+    "risco": "BR-116",
+    "canal": "SMS"
+  },
+  {
+    "id": "S06",
+    "nome": "Drone Agro Ltda",
+    "produto": "Drones",
+    "cidade": "Ribeirão Preto",
+    "risco": "pulverização",
+    "canal": "WhatsApp"
+  },
+  {
+    "id": "S07",
+    "nome": "Aeroclube SP",
+    "produto": "Aeronáutico",
+    "cidade": "São Paulo",
+    "risco": "pátio aeronaves",
+    "canal": "E-mail"
+  },
+  {
+    "id": "S08",
+    "nome": "Loja Centro",
+    "produto": "Empresarial",
+    "cidade": "Porto Alegre",
+    "risco": "estoque",
+    "canal": "WhatsApp"
+  },
+  {
+    "id": "S09",
+    "nome": "Frota Sul",
+    "produto": "Frota",
+    "cidade": "Porto Alegre",
+    "risco": "caminhões",
+    "canal": "SMS"
+  },
+  {
+    "id": "S10",
+    "nome": "Colaborador Externo",
+    "produto": "Vida",
+    "cidade": "São Joaquim",
+    "risco": "trabalho externo",
+    "canal": "WhatsApp"
+  }
+]

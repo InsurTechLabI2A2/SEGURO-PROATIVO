@@ -1,0 +1,142 @@
+[
+  {
+    "evento_id": "E01",
+    "nome": "CHUVA_INTENSA_RESIDENCIAL",
+    "criterio_tecnico": "rain.3h > 50mm OU rain.1h > 30mm",
+    "parametro_api": "openweathermap: data['rain']['3h'] / data['rain']['1h']",
+    "impacto": "Seguro Residencial: risco de alagamento, infiltração e perda de estoque doméstico"
+  },
+  {
+    "evento_id": "E02",
+    "nome": "GRANIZO_AUTOMOVEL",
+    "criterio_tecnico": "weather.main == 'Hail' OR weather.id in [511, 906]",
+    "parametro_api": "weather[0].main == Hail",
+    "impacto": "Seguro Auto/Frota: quebra de para-brisa, amassados"
+  },
+  {
+    "evento_id": "E03",
+    "nome": "VENTO_FORTE_COSTEIRO_EMPRESARIAL",
+    "criterio_tecnico": "wind.gust > 20 m/s OR wind.speed > 15 m/s",
+    "parametro_api": "wind.gust / wind.speed",
+    "impacto": "Seguro Empresarial/Residencial costeiro: destelhamento, queda de placas"
+  },
+  {
+    "evento_id": "E04",
+    "nome": "TEMPESTADE_RAIOS_EQUIPAMENTOS",
+    "criterio_tecnico": "weather.main == 'Thunderstorm'",
+    "parametro_api": "weather.main == Thunderstorm",
+    "impacto": "Seguro Empresarial/Equipamentos: queima de eletrônicos por raio"
+  },
+  {
+    "evento_id": "E05",
+    "nome": "ONDA_CALOR_SAUDE_RESIDENCIAL",
+    "criterio_tecnico": "main.temp_max > 38°C por 2 dias consecutivos",
+    "parametro_api": "main.temp_max + histórico",
+    "impacto": "Seguro Saúde/Vida/Residencial: insolação, incêndio por sobrecarga"
+  },
+  {
+    "evento_id": "E06",
+    "nome": "GEADA_RURAL",
+    "criterio_tecnico": "main.temp_min < 2°C AND clouds < 20%",
+    "parametro_api": "main.temp_min, clouds",
+    "impacto": "Seguro Rural/Agrícola: queima de lavoura"
+  },
+  {
+    "evento_id": "E07",
+    "nome": "NEVOEIRO_DENSO_TRANSPORTE",
+    "criterio_tecnico": "visibility < 500m",
+    "parametro_api": "visibility",
+    "impacto": "Seguro Transporte/Auto: colisão por baixa visibilidade"
+  },
+  {
+    "evento_id": "E08",
+    "nome": "BAIXA_UMIDADE_RESPIRATORIO",
+    "criterio_tecnico": "main.humidity < 20%",
+    "parametro_api": "main.humidity",
+    "impacto": "Seguro Saúde/Residencial: crise respiratória e incêndio"
+  },
+  {
+    "evento_id": "E09",
+    "nome": "INUNDACAO_RIO_RESIDENCIAL",
+    "criterio_tecnico": "rain.24h > 100mm AND main.pressure < 1005 hPa",
+    "parametro_api": "rain acumulado + main.pressure",
+    "impacto": "Seguro Residencial/Empresarial: enchente ribeirinha"
+  },
+  {
+    "evento_id": "E10",
+    "nome": "CICLONE_VENDAVAL",
+    "criterio_tecnico": "wind.speed > 25 m/s AND pressure_drop > 8hPa/3h",
+    "parametro_api": "wind.speed + main.pressure drop",
+    "impacto": "Seguro Residencial/Empresarial: vendaval ciclônico"
+  },
+  {
+    "evento_id": "E11",
+    "nome": "SECA_PROLONGADA_RURAL",
+    "criterio_tecnico": "rain.30d < 10mm AND main.temp_avg > 30°C",
+    "parametro_api": "acumulado 30d simulado",
+    "impacto": "Seguro Rural/Crédito: quebra de safra"
+  },
+  {
+    "evento_id": "E12",
+    "nome": "CALOR_EXTREMO_DATACENTER",
+    "criterio_tecnico": "main.temp > 40°C",
+    "parametro_api": "main.temp",
+    "impacto": "Seguro Cyber/Equipamentos: falha de refrigeração e data center"
+  },
+  {
+    "evento_id": "E13",
+    "nome": "VENTO_LATERAL_DRONE",
+    "criterio_tecnico": "wind.speed > 10 m/s em 100m",
+    "parametro_api": "wind.speed (estimado)",
+    "impacto": "Seguro Aeronáutico/Drones: aborto de voo de pulverização"
+  },
+  {
+    "evento_id": "E14",
+    "nome": "CHUVA_PERSISTENTE_OBRA",
+    "criterio_tecnico": "rain.72h > 120mm contínuo",
+    "parametro_api": "rain acumulado 72h",
+    "impacto": "Seguro Garantia de Obra: infiltração e atraso"
+  },
+  {
+    "evento_id": "E15",
+    "nome": "NEVE_AERONAUTICA",
+    "criterio_tecnico": "weather.main == 'Snow'",
+    "parametro_api": "weather.main == Snow",
+    "impacto": "Seguro Aeronáutico: cancelamento e gelo em asa"
+  },
+  {
+    "evento_id": "E16",
+    "nome": "ALTA_UMIDADE_MOFO_ESTOQUE",
+    "criterio_tecnico": "main.humidity > 90% por 48h",
+    "parametro_api": "main.humidity histórico",
+    "impacto": "Seguro Empresarial/Estoque: mofo e perda de mercadoria"
+  },
+  {
+    "evento_id": "E17",
+    "nome": "TEMPESTADE_AREIA_FROTA",
+    "criterio_tecnico": "wind.gust > 18 m/s AND visibility < 1000m AND temp > 32°C",
+    "parametro_api": "wind.gust + visibility + temp",
+    "impacto": "Seguro Frota: abrasão e falha de motor"
+  },
+  {
+    "evento_id": "E18",
+    "nome": "FRIO_INTENSO_TRABALHADOR",
+    "criterio_tecnico": "main.temp_min < -2°C",
+    "parametro_api": "main.temp_min",
+    "impacto": "Seguro Vida/Acidentes Pessoais: hipotermia trabalhador externo"
+  },
+  {
+    "evento_id": "E19",
+    "nome": "UV_EXTREMO_RURAL",
+    "criterio_tecnico": "uvi > 11",
+    "parametro_api": "current.uvi (OneCall API)",
+    "impacto": "Seguro Rural/Saúde: queimadura lavoura e insolação"
+  },
+  {
+    "evento_id": "E20",
+    "nome": "QUEDA_PRESSAO_LOGISTICA",
+    "criterio_tecnico": "main.pressure drop > 10hPa em 3h",
+    "parametro_api": "main.pressure",
+    "impacto": "Seguro Transporte/Logística: tempestade severa iminente, atraso porto"
+  }
+]
