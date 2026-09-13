@@ -47,13 +47,11 @@ SEGURO-PROATIVO/
 
 │   └── mock\_segurados.json    \# Base de segurados de demonstração
 
-│   └── Log-Envios.csv
-
 ├── docs/
 
-│   ├── Relatorio-Tecnico-V4 - Seguro_Proativo__MVP.pdf         
+│   ├── Relatorio_Tecnico_V4_Seguro_Proativo_MVP.pdf         
 
-│   └── APRESENTAÇÃO - Seguro_Proativo__MVP.pdf
+│   └── APRESENTAÇÃO_Seguro_Proativo_MVP.pdf
 
 ├── requirements.txt
 
@@ -77,7 +75,7 @@ cp .env.example .env
 
 python main.py
 
-Sem nenhuma chave configurada, o sistema roda imediatamente usando dados meteorológicos simulados (um cenário realista e **diferente por cidade**), o que já demonstra o fluxo completo, ponta a ponta, sem nenhuma configuração adicional. O script gera `Log-Envios.csv` com todas as comunicações simuladas.
+Sem nenhuma chave configurada, o sistema roda imediatamente usando dados meteorológicos simulados (um cenário realista e **diferente por cidade**), o que já demonstra o fluxo completo, ponta a ponta, sem nenhuma configuração adicional. O script gera `log_envios.csv` com todas as comunicações simuladas.
 
 Executar `python main.py` mais de uma vez faz o histórico (`historico_clima.json`, gerado localmente e ignorado pelo Git) acumular novas leituras; é esperado que novos eventos acumulados (ex.: E14 em Porto Alegre, quando a chuva das últimas 72h ultrapassa 120mm) passem a aparecer a partir da segunda ou terceira execução, simulando um monitoramento contínuo real.
 
