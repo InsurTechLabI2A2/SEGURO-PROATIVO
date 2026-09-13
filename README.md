@@ -51,7 +51,7 @@ SEGURO-PROATIVO/
 
 ├── docs/
 
-│   ├── Relatorio-Tecnico-V4 - Seguro_Proativo__MVP.pdf         \# Relatório técnico (entregável do desafio)
+│   ├── Relatorio-Tecnico-V4 - Seguro_Proativo__MVP.pdf         
 
 │   └── APRESENTAÇÃO - Seguro_Proativo__MVP.pdf
 
