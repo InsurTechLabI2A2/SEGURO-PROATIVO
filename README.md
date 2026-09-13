@@ -139,4 +139,4 @@ A fonte de verdade dos 20 eventos e seus critérios técnicos é [`data/eventos_
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT http://LICENSE.  
+Este projeto está licenciado sob a licença MIT [http://LICENSE](https://github.com/InsurTechLabI2A2/SEGURO-PROATIVO/blob/main/LICENSE).  
