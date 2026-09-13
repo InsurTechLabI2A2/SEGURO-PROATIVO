@@ -47,11 +47,13 @@ SEGURO-PROATIVO/
 
 │   └── mock\_segurados.json    \# Base de segurados de demonstração
 
+│   └── Log-Envios.csv
+
 ├── docs/
 
-│   ├── Relatorio-Tecnico-V3.pdf         \# Relatório técnico (entregável do desafio)
+│   ├── Relatorio-Tecnico-V4 - Seguro_Proativo__MVP.pdf         \# Relatório técnico (entregável do desafio)
 
-│   └── Proactive\_AI\_Risk\_Mitigation.pdf \# Apresentação da proposta do Desafio 5
+│   └── APRESENTAÇÃO - Seguro_Proativo__MVP.pdf
 
 ├── requirements.txt
 
@@ -137,4 +139,4 @@ A fonte de verdade dos 20 eventos e seus critérios técnicos é [`data/eventos_
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT (ver [LICENSE](http://LICENSE)).  
+Este projeto está licenciado sob a licença MIT http://LICENSE.  
