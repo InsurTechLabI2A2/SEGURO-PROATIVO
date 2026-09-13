@@ -21,7 +21,7 @@ Desenvolver uma solução baseada em IA capaz de realizar comunicação proativa
 
 Coleta (API/mock) → Analisador (20 critérios \+ histórico) → Regras de negócio
 
-→ Comunicador (LLM/templates) → Simulador de envio (Log\_Envios.csv)
+→ Comunicador (LLM/templates) → Simulador de envio (log\_envios.csv)
 
 ## Estrutura do repositório
 
